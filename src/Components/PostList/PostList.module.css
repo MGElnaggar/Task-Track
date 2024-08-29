@@ -1,0 +1,59 @@
+.postList{
+    background-color: darkgray;
+}
+
+.postListContainer {
+    padding: 20px;
+    max-width: 800px;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.postListContainer ul{
+    list-style-type: none;
+}
+
+.postItem {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.postTitle {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.postBody {
+    font-size: 1rem;
+    color: #777;
+    line-height: 1.6;
+}
+
+@media (max-width:400px) {
+
+    .header {
+        text-align: left;
+    }
+
+    .postListContainer ul{
+        padding: 0;
+    }
+
+}
