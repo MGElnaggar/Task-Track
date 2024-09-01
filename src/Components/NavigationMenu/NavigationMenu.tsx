@@ -30,7 +30,7 @@ const NavigationMenu: React.FC = () => {
                 <div className={`${style.links} ${isOpen ? style.show : ''}`}>
                     <a href="/">Home</a>
                     <a href="/">About</a>
-                    <a href="/post-list">Post List</a>
+                    <a href="/postList">Post List</a>
                     <a href="/">Contact</a>
                     <button onClick={registrationBtn}>Registration</button>
                 </div>
