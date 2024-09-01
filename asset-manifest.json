@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Task-Track/static/css/main.48a073f3.css",
+    "main.js": "/Task-Track/static/js/main.f838140d.js",
+    "index.html": "/Task-Track/index.html",
+    "static/media/eye-slash-svgrepo-com.svg": "/Task-Track/static/media/eye-slash-svgrepo-com.b8208993e6a6c318192e8f96a06eb2e0.svg",
+    "static/media/eye-svgrepo-com.svg": "/Task-Track/static/media/eye-svgrepo-com.89f8186096dbdf80861ddcddef680bf0.svg",
+    "main.48a073f3.css.map": "/Task-Track/static/css/main.48a073f3.css.map",
+    "main.f838140d.js.map": "/Task-Track/static/js/main.f838140d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48a073f3.css",
+    "static/js/main.f838140d.js"
+  ]
+}
