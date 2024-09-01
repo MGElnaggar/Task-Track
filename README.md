@@ -1,46 +1,71 @@
-# Getting Started with Create React App
+# Task Track Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my Task Track Project. This project allows users to manage tasks with a dynamic todo list, fetch data using a custom useFetch hook, and register with a validated form, ensuring efficient task tracking and data management.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### 1. Dynamic Todo List
+- **Form to Add Todos**: Includes fields for title and description.
+- **Todo List**: Display todos with options to mark them as completed or delete them.
+- **Filter Options**: View all todos, only completed todos, or only incomplete todos.
+- **Local Storage**: Persist todos so they are retained after a page refresh.
+- **Validation**: Basic validation to ensure both title and description are provided before adding a todo.
 
-### `npm start`
+### 2. Custom Hook - `useFetch`
+- **Data Fetching**: Handles data fetching from a public API using `fetch`.
+- **Loading and Error States**: Provides loading indicators and error messages based on the state.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 3. Responsive Navigation Menu
+- **Navigation Links**: Includes Home, About, Contact, and Registration links.
+- **Responsive Design**: Hamburger menu for smaller screens and logo or title for larger screens.
+- **CSS Modules**: Used for styling to ensure scoped and maintainable styles.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 4. Registration Form with Validation
+- **Fields**: Full Name, Email, Password (with confirmation), and Agree to Terms checkbox.
+- **Client-Side Validation**: Ensures Full Name is not empty, Email is valid, Passwords match, and Terms checkbox is checked before submission.
 
-### `npm test`
+### 5. Performance Optimization
+- **Component Optimization**: Improved rendering performance for components with a large list of items or expensive computations using `React.memo`, `useMemo`, or `useCallback`.
+- **Performance Analysis**: Explanation of optimizations and comparison of performance metrics.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Component Breakdown
 
-### `npm run build`
+### 1. `TodoList.tsx`
+- **Technologies Used**:
+  - **useState, useEffect**: For managing state and side effects.
+  - **useCallback**: To memoize functions (`handleToggleComplete`, `handleDeleteTodo`) to avoid unnecessary re-renders.
+  - **useMemo**: To optimize the filtering of todos based on the selected filter.
+- **Why These Technologies**:
+  - **React Hooks**: Simplify state management and side effects.
+  - **useCallback & useMemo**: Enhance performance by avoiding unnecessary re-renders and recalculations.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2. `Registration.tsx`
+- **Technologies Used**:
+  - **useState**: For managing form inputs and validation states.
+  - **useNavigate**: For programmatic navigation after form submission.
+  - **Regular Expressions**: For validating email and password formats.
+- **Why These Technologies**:
+  - **React Hooks**: Manage form state and handle input changes efficiently.
+  - **Regular Expressions**: Ensure email and password adhere to required formats.
+  - **useNavigate**: Allows navigation to different routes upon successful form submission.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3. `NavigationMenu.tsx`
+- **Technologies Used**:
+  - **useState**: To manage the state of the hamburger menu (open/closed).
+  - **useNavigate**: For routing navigation when links are clicked.
+- **Why These Technologies**:
+  - **React Hooks**: Manage menu state and navigation in a functional component.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 4. `PostsList.tsx`
+- **Technologies Used**:
+  - **useFetch**: Custom hook for data fetching.
+- **Why These Technologies**:
+  - **useFetch**: Encapsulates data fetching logic and state management, making the component cleaner and easier to maintain.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 5. `useFetch.tsx`
+- **Technologies Used**:
+  - **useState, useEffect**: For managing data fetching state and side effects.
+  - **fetch API**: For retrieving data from an external API.
+- **Why These Technologies**:
+  - **useState & useEffect**: Manage the data fetching lifecycle and handle asynchronous operations.
+  - **fetch API**: Provides a straightforward method for making HTTP requests and handling responses.
