@@ -11,7 +11,7 @@ function App() {
         <Routes>
           <Route path="/" element={ <TodoList /> } />
           <Route path="/registration" element={ <Registration /> } />
-          <Route path="/postList" element={ <PostsList /> } />
+          {/* <Route path="/postList" element={ <PostsList /> } /> */}
         </Routes>
       </BrowserRouter>
     </>
