@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Task-Track/static/css/main.2e42b274.css",
-    "main.js": "/Task-Track/static/js/main.8f2196fd.js",
+    "main.js": "/Task-Track/static/js/main.2805ad15.js",
     "index.html": "/Task-Track/index.html",
     "static/media/eye-slash-svgrepo-com.svg": "/Task-Track/static/media/eye-slash-svgrepo-com.b8208993e6a6c318192e8f96a06eb2e0.svg",
     "static/media/eye-svgrepo-com.svg": "/Task-Track/static/media/eye-svgrepo-com.89f8186096dbdf80861ddcddef680bf0.svg",
     "main.2e42b274.css.map": "/Task-Track/static/css/main.2e42b274.css.map",
-    "main.8f2196fd.js.map": "/Task-Track/static/js/main.8f2196fd.js.map"
+    "main.2805ad15.js.map": "/Task-Track/static/js/main.2805ad15.js.map"
   },
   "entrypoints": [
     "static/css/main.2e42b274.css",
-    "static/js/main.8f2196fd.js"
+    "static/js/main.2805ad15.js"
   ]
 }
