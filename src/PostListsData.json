@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "title": "Post Title 1",
+      "body": "This is the body of post 1."
+    },
+    {
+      "id": 2,
+      "title": "Post Title 2",
+      "body": "This is the body of post 2."
+    },
+    {
+      "id": 3,
+      "title": "Post Title 3",
+      "body": "This is the body of post 3."
+    },
+    {
+      "id": 4,
+      "title": "Post Title 4",
+      "body": "This is the body of post 4."
+    },
+    {
+      "id": 5,
+      "title": "Post Title 5",
+      "body": "This is the body of post 5."
+    },
+    {
+      "id": 6,
+      "title": "Post Title 6",
+      "body": "This is the body of post 6."
+    }
+  ]
+  

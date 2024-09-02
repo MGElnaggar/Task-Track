@@ -1,8 +1,10 @@
 .todo{
     background-color: darkgray;
+    height: 100%;
 }
 
 .todoContainer{
+    padding: 42px;
     display: flex;
     justify-content: center;
     align-items: center;
