@@ -7,13 +7,13 @@ import PostsList from "./Components/PostList/PostList";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={ <TodoList /> } />
           <Route path="/registration" element={ <Registration /> } />
           <Route path="/postList" element={ <PostsList /> } />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
