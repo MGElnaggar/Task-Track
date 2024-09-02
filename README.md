@@ -71,5 +71,6 @@ Welcome to my Task Track Project. This project allows users to manage tasks with
   - **fetch API**: Provides a straightforward method for making HTTP requests and handling responses.
     
 
+---
 
-**View Site** : https://mgelnaggar.github.io/Task-Track/
+### View Site: https://mgelnaggar.github.io/Task-Track/
