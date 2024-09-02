@@ -73,7 +73,7 @@ const Registration: React.FC = () => {
         <div className={style.signInContainer}>
             <div className={style.signInBox}>
                 <div className={style.logo}>
-                    <span>Ecom payments</span>
+                    <span>Task Track</span>
                 </div>
                 <div className={style.welcomeText}>Welcome</div>
 
